@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="header"></div>
+   <form action="testeform">
+    <div class="content">     
+      <input type="email" id="email" name="email" placeholder="entre com seu Email" required>>    
+      <input type="password" id="pass" name="password" placeholder="Digite sua senha super secreta"
+           minlength="8" required>     
+   </div>
+   </form>
+  <button (click)= , (click)="isClicked = !isClicked" [class.myClass]="isClicked buscardecrement() ">entrar</button> 
+ 
+
+
+ </div>
+
+ <div class="modal" *ngIf="modalContent">
+    <img src="assets/images/chaves.jpg" />
+    <div class="modal-content"  *ngfor="let desenvolvedores of resp | async">
+      <span>{{ desenvolvedores }} </span>
+    </div>
+    <label class="modal-close" for="modal_chaves"></label>
+  </div>
